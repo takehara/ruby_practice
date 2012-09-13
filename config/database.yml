@@ -15,7 +15,7 @@ development:
   database: ruby_practice_development
   pool: 5
   username: root
-  password:
+  password: m2012net
   socket: /opt/local/var/run/mysql5/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   database: ruby_practice_test
   pool: 5
   username: root
-  password:
+  password: m2012net
   socket: /opt/local/var/run/mysql5/mysqld.sock
 
 production:
@@ -38,5 +38,5 @@ production:
   database: ruby_practice_production
   pool: 5
   username: root
-  password:
+  password: m2012net
   socket: /opt/local/var/run/mysql5/mysqld.sock
